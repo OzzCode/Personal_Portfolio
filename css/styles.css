@@ -520,8 +520,9 @@ footer {
 }
 
 #projects {
-    padding: 50px 15px;
+    padding: 50px 15px 20px 15px;
     border-bottom: 1px solid #dcd9d9;
+    text-align: center
 }
 
 #projects h2 {
@@ -543,12 +544,12 @@ footer {
 }
 
 .project-info {
-    position: absolute;
-    top: 10%;
-    transform: translateY(-50%);
+    position: relative;
+    /*top: 10%;*/
+    /*transform: translateY(-50%);*/
     margin-left: 50px;
     padding: 15px;
-    text-align: center;
+    text-align: left;
 }
 
 .project-info ol {
